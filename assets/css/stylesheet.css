@@ -1,0 +1,206 @@
+body {
+    font-family: 'Orbitron', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container-wrapper {
+
+}
+
+.container-wrapper-orange {
+    background-color: #d13f1b;
+    color: white;
+}
+.alert {
+    /* margin-bottom: 0; */
+}
+
+.alert-container .col-12 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/* change the position for sitewide-alert and 
+navbar to relative to stop the overlapping */
+.sitewide-alert {
+    position: relative;
+    color: #544600;
+    background-color: #eec802;
+    border-color: #eec802;
+    width: 100%;
+    padding: 5px 15px;
+    margin-bottom: 0;
+    border: 1px solid transparent;
+    border-radius: 0;
+
+}
+
+.callout-container {
+    height: 100vh;
+
+    background: url(https://images.pexels.com/photos/6434596/pexels-photo-6434596.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.quotes-container {}
+
+.features-container {}
+
+/* block divider */
+
+.block-divider {
+
+    width: 75px;
+    height: 5px;
+    border: 0;
+    background-color: #8f8f8f;
+}
+
+.block-divider-orange {
+    background-color: #d13f1b;
+}
+
+.block-divider-white {
+    background-color: white;
+}
+
+.block-divider-short {
+    width: 35px;
+}
+
+/* Content Container */
+
+.content-container {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+/* Navbar */
+
+.navalert-container {
+    top: 0;
+    left: 0;
+    z-index: 1;
+    padding-left: 0;
+    padding-right: 0;
+    
+}
+
+
+.navbar {
+    position: relative;
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+    background-color: rgba(0,0,0,1) !important;
+}
+
+.navbar-toggler {
+    border: 0;
+}
+
+.navbar-brand {
+    color: #d13f1b !important;
+    font-weight: bold;
+}
+
+.navbar .navbar-nav a {
+    font-weight: bold;
+}
+
+/* jumbotron */
+
+.jumbotron {
+    background: transparent;
+}
+
+.jumbotron-header {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.jumbotron .lead {
+    color: rgba(255,255,255,.5);
+}
+
+.jumbotron small {
+     font-size: 60%;
+     font-style: italic;
+     color: #d0d0d0;   
+}
+
+.btn-cta {
+    font-weight: bold;
+    border-radius: 23px;
+    width: 160px;
+}
+
+.btn-red {
+    color: white;
+    background-color: #912004e8;
+    border-color: #d13f1b;
+}
+
+.btn-red:hover,
+.btn-red:active,
+.btn-red:focus,
+.btn-red:active:focus {
+    background-color: #d13f1b;
+    color: #d0d0d0;
+    border-color: #912004e8;
+}
+/* Page Headers - removed my-5 class in quotes and features and replaced with page-header*/
+
+.page-header {
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
+}
+
+.page-header h2 {
+    margin-top: 0;
+}
+.quotes .page-header {
+    margin-bottom: 25px;
+}
+
+.feature {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.features i {
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 45px;
+}
+
+.features .btn {
+    background-color: white;
+    border-color: #912004e8;
+    border-radius: 15px;
+    min-width: 100px;
+    Font-weight: bold;
+    Margin-top: 10px;
+    color: #d13f1b;
+
+}
